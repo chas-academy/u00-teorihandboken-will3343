@@ -120,7 +120,29 @@ i form av fungerande mjukvara som har testats vid varje iteration.
 <hr>
 
 ## PJ 1.2 Icke-agila metoder
-Beskriv rubriken nedan här
+
+***Icke-agila metoder*** (Waterfall or linear), är en traditionell metod för att skapa mjukvara. Den delar upp 
+mjukvaruutvecklingens livscykel (SDLC) i 6 olika steg där man tar sig en utmaningar ett steg i taget. Man kan 
+bara gå vidare till nästa steg när det aktuella steget är 100% klart. <br>
+
+Dessa är de vänliga stegen: <br>
+
+- Planera 
+- Krav 
+- System- och mjukvarudesign 
+- Genomförande 
+- Testning
+- Spridning
+- Underhåll/uppdateringar <br>
+
+De flesta äldre mjukvaruutvecklare tenderar att kalla denna metodik för en "plandriven process". För att 
+framgångsrikt använda waterfallsmetoden måste man ha en tydlig plan när vissa saker görs, hur de görs och 
+naturligtvis - varför de görs. Vattenfallet fungerar bäst för större team som har tydliga mål, krav och en 
+gedigen förståelse för omfattningen av det arbete som behöver göras före och efter den inledande kick-offen.
+
+![Non agile vs agile](NvAg.png)
+
+<hr>
 
 ## PJ 1.3 Entreprenörskap inom webbutveckling
 Beskriv rubriken nedan här
