@@ -193,3 +193,25 @@ De är bra tips att man ta upp i ärendehanterings granskning.
 -  Rapportering 
 
 <br><hr>
+
+[källor]: 
+
+(Lektionsmaterial)
+
+(scrum bilder - https://projektledning.se/scrum/ )
+
+(Kanban bilder - https://study.com/academy/lesson/kaizen-kanban-process-differences.html )
+
+(Non agile vs agile - https://medium.com/@amberSpadafora/software-design-intro-agile-non-agile-3f5573f9efee)
+
+(Webbutveckling- https://thegrittifund.com/startup-lexicon/entrepreneur-personality/   https://www.entire.se/artiklar/introduktion-till-webbutveckling-frontend-vs-backend)
+
+(Non-Agile-  https://www.shareitsolutions.com/blog/agile-non-agile/)
+
+(Agile- https://www.cornerstone.se/inspiration/affarskompetens/vad-menas-med-agil-metodik-och-agila-metoder)
+
+(Agile- https://stackify.com/agile-methodology/)
+
+(Agile- https://rightpeoplegroup.com/sv/vad-aer-agil/)
+
+<hr>
