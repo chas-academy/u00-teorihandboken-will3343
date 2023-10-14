@@ -145,7 +145,17 @@ gedigen förståelse för omfattningen av det arbete som behöver göras före o
 <hr>
 
 ## PJ 1.3 Entreprenörskap inom webbutveckling
-Beskriv rubriken nedan här
+
+***Enterprenörskap inom webbutveckling*** är en person som startar ett företag med hjälp av webben. Dessa 
+entreprenörer är mycket lika internetentreprenörer.Internet är ett globalt nätverk av nätverk. Webben och 
+andra sidan, är grupperingar av information som erhålls med hjälp av internet. Infrastrukturen är med andra 
+ord internet, medan webben består av tjänster som erbjuder insamlingar av data som ligger ovanpå de bredare 
+globala nätverken. Beroende på omfattningen av verksamheten en entreprenör bedriver, kan de känna att det är 
+mer lämpligt att hänvisa till sig själva som en webbentreprenör jämför med en internetentreprenör. Webbentreprenörer 
+tar risker och har de grundläggande egenskaper som behövs för att korrekt navigera genom en ständigt föränderlig 
+global marknad precis som andra entreprenörer och har ett öga för att upptäcka trender.  
+
+<hr>
 
 ## PJ 1.4 Issue distribution and handling in a group
 Beskriv rubriken nedan här
