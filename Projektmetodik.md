@@ -98,8 +98,26 @@ avslutar sprinten med en genomgång och startar sedan en ny sprint.
 För att scrum erbjuda en minskad risk, snabbare time to market och en slutprodukt som är betydligt bättre 
 anpassad till marknaden.
 
+## Kanban 
+
+***Kanban*** är ett väldigt populärt ramverk för flexibel software development. Alla delar av arbete som 
+olika teammedlemmar hanterar representeras visuellt på en Kanban-tavla, vilket tillåter hela teamet att 
+ständigt följa utvecklingen av hela projekt.
+
+![Kanban method](kanban.png)
 
 
+
+## Extreme Programming 
+
+***Extremprogrammeringsmetoden (XP)*** är ett disciplinerat tillvägagångssätt som fokuserat på snabbhet 
+och kontinuerlig leverans. Det framjar ökat kundengagemang, snabba återkopplingsslingor, kontinuerlig 
+planering och testing och nära lagarbete. XP-metoden bygger på värderingarna kommunikation, feedback, 
+enkelhet och mod. Kunder arbetar nära sitt utvecklingsteam för att definiera och prioritera sina efterfrågade 
+användarberättelser. Det är dock upp till teamet att leverera de högsta prioriterade användarberättelserna 
+i form av fungerande mjukvara som har testats vid varje iteration.
+
+<hr>
 
 ## PJ 1.2 Icke-agila metoder
 Beskriv rubriken nedan här
