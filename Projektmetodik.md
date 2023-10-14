@@ -45,16 +45,29 @@ Chas Academy
 
 <br><hr>
 
+<br><hr>
+
 ## PJ 1.1 Agila metoder (Scrum, Kanban, Extreme Programming)
 
-**Agile Methodology** är ett människofokuserat, resultatfokuserat tillvägagångssätt för mjukvaruutveckling som respekterar vår snabbt föränderliga värld. Det är centrerat kring adaptiv planering, självorganisering och korta leveranstider. Den är flexibel, snabb och syftar till ständiga kvalitetsförbättringar. <br>
+**Agile Methodology** är ett människofokuserat, resultatfokuserat tillvägagångssätt 
+för mjukvaruutveckling som respekterar vår snabbt föränderliga värld. Det är centrerat 
+kring adaptiv planering, självorganisering och korta leveranstider. Den är flexibel, 
+snabb och syftar till ständiga kvalitetsförbättringar. <br>
 
 ![Agile software development cycle](agsdc-1.png)
 
 ***Exempel på agil metodik:***
-De mest populära och vanliga exemplen är Scrum, Extreme Programming(XP), Feature Driven Development(FDD), Dynamic Systems Development(ASD), Crystal och Lean Software Development(LSD). Lag väljer vanligtvis en eller två metoder. De mest använda metoderna är Scrum och XP, som passar bra ihop. <br> 
+
+De mest populära och vanliga exemplen är Scrum, Extreme Programming(XP), Feature Driven 
+Development(FDD), Dynamic Systems Development(ASD), Crystal och Lean Software Development(LSD). 
+Lag väljer vanligtvis en eller två metoder. De mest använda metoderna är Scrum och XP, som passar 
+bra ihop. <br> 
+
 ***Fördelar med agil metodik:***
-Är direkt knutna till dess snabbare, lättare, mer engagerade tankesätt. Processen, i ett nötskal, levererar vad kunden vill ha,när kunden vill ha det. Det går åt mycket mindre tid för att utvecklas i fel riktning, och hela systemet är snabbare att reagera på förändringar.
+
+Är direkt knutna till dess snabbare, lättare, mer engagerade tankesätt. Processen, i ett nötskal, 
+levererar vad kunden vill ha,när kunden vill ha det. Det går åt mycket mindre tid för att utvecklas 
+i fel riktning, och hela systemet är snabbare att reagera på förändringar.
 
 ## Scrum
 
