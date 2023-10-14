@@ -158,4 +158,38 @@ global marknad precis som andra entreprenörer och har ett öga för att upptäc
 <hr>
 
 ## PJ 1.4 Issue distribution and handling in a group
-Beskriv rubriken nedan här
+
+***Issue distribution and handling in a group***  som det heter är att varje störning av en organisations IT-tjänster
+som påverkar allt från en enskild användare eller hela verksamheten. Kort sagt, en issue är allt som avbryter 
+affärskontinuiteten.
+<br>
+
+I en sådan situation behöver man en IT-issuehantering. Issuehantering är processen att hantera störningar i It-tjänster 
+och återställa tjänster inom överenskomna servicenivåavtal(Service level agreements(SLAs))
+<br>
+
+Issuehantering omfattning börjar med att en slutanvändare rapporterar ett problem och slutar med att en group 
+eller teammedlem löser problemet. 
+
+#### Hur man klassificerar IT-Issue
+
+Issue i en IT-miljö kan kategoriseras på flera olika sätt. Några faktorer som påverkar kategoriseringen av 
+incidenter inkluderar hur brådskande issue är och hur allvarlig den påverkar användarna eller verksamheten 
+i allmänhet. Att klassificera och kategorisera IT-incidenter hjälper till att identifiera och dirigera incidenter 
+till rätt tekniker, vilket sparar tid och ansträngning. Till exempel kan incidenter klassificeras som större 
+eller mindre issue baserat på deras inverkan på verksamheten och deras brådska.
+
+#### Granskning efter issue hantering
+
+När ett ärende har stängts är det god praxis att dokumentera alla avhämtningar från den händelsen. Detta hjälper 
+till att förbereda team bättre för framtida problem och skapar en mer effektiv process för ärendehantering. 
+De är bra tips att man ta upp i ärendehanterings granskning.
+
+-  Utfärda identifering 
+-  Informationsflöde och kommunikation 
+-  Struktur (Hur var svarsteamet?)
+-  Resursanvändning
+-  Bearbeta 
+-  Rapportering 
+
+<br><hr>
