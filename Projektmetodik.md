@@ -71,6 +71,35 @@ i fel riktning, och hela systemet är snabbare att reagera på förändringar.
 
 ## Scrum
 
+***Scrum*** är ett lättviktigt agilt ramverk som kan användas av projektledare för att kontrollera 
+alla typer av iterativa och inkrementella projekt. I scrum skapar produktägaren en produktbacklog som 
+gör att de kan arbeta med sitt team för att identifiera och prioritera systemfunktionalitet. I detta 
+inkluderar bug fixes, funktioner och icke-funktionella krav.
+
+Det viktigaste roller som står bakom scrum koncept:
+- Produkt ägare
+- Scrum Master
+- Sprint / Sprint planning
+- Daily Scrum 
+- Retrospective 
+- Sprint backlog / user stories
+- Product backlog
+
+![Scrum method](scrum.png)
+
+En produktägare gör en prioriterad önskelista känd som en produktbacklog. Scrum-teamet tar en liten bit av 
+toppen av önskelistan som kallas en sprintbacklog och planerar att implementera den. Teamet slutför sin 
+sprintbacklog-uppgift i en sprint(2-4 veckors). De bedömer framstegen i ett möte som kallas en daglig scrum. 
+Scrum Master håller teamet fokuserat på målet. Vid sprintens slut är verket redo att skickas/visas.  Laget 
+avslutar sprinten med en genomgång och startar sedan en ny sprint.
+
+### Varför scrum? 
+
+För att scrum erbjuda en minskad risk, snabbare time to market och en slutprodukt som är betydligt bättre 
+anpassad till marknaden.
+
+
+
 
 ## PJ 1.2 Icke-agila metoder
 Beskriv rubriken nedan här
