@@ -54,7 +54,7 @@ för mjukvaruutveckling som respekterar vår snabbt föränderliga värld. Det �
 kring adaptiv planering, självorganisering och korta leveranstider. Den är flexibel, 
 snabb och syftar till ständiga kvalitetsförbättringar. <br>
 
-![Agile software development cycle](/images/agsdc-1.png)
+![Agile software development cycle](/images/agsdc.png)
 
 ***Exempel på agil metodik:***
 
