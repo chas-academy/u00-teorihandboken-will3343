@@ -420,6 +420,7 @@ Principen om känslomässig smitta eller kameleonteffekt säger att människor k
 
 UX-designers har en skyldighet att inte missbruka principen om känslomässig smitta genom att skämma ut eller manipulera användare att vidta åtgärder som kan skada dem.
 
+<hr>
 
 ### Källor:
 

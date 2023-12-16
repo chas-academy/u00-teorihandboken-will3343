@@ -153,6 +153,7 @@ En vanlig och mest känd CSS och HTML validation hemsida.
 
 Naturligtvis, det är inte bara de här sidorna förutom det finns också många andra hemsidor som validerar HTML och CSS. 
 
+<hr>
 
 Källor:
 

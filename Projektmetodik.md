@@ -54,7 +54,7 @@ för mjukvaruutveckling som respekterar vår snabbt föränderliga värld. Det �
 kring adaptiv planering, självorganisering och korta leveranstider. Den är flexibel, 
 snabb och syftar till ständiga kvalitetsförbättringar. <br>
 
-![Agile software development cycle](agsdc-1.png)
+![Agile software development cycle](/images/agsdc-1.png)
 
 ***Exempel på agil metodik:***
 
@@ -85,7 +85,7 @@ Det viktigaste roller som står bakom scrum koncept:
 - Sprint backlog / user stories
 - Product backlog
 
-![Scrum method](scrum.png)
+![Scrum method](/images/scrum.png)
 
 En produktägare gör en prioriterad önskelista känd som en produktbacklog. Scrum-teamet tar en liten bit av 
 toppen av önskelistan som kallas en sprintbacklog och planerar att implementera den. Teamet slutför sin 
@@ -104,9 +104,7 @@ anpassad till marknaden.
 olika teammedlemmar hanterar representeras visuellt på en Kanban-tavla, vilket tillåter hela teamet att 
 ständigt följa utvecklingen av hela projekt.
 
-![Kanban method](kanban.png)
-
-
+![Kanban method](/images/kanban.png)
 
 ## Extreme Programming 
 
@@ -140,7 +138,7 @@ framgångsrikt använda waterfallsmetoden måste man ha en tydlig plan när viss
 naturligtvis - varför de görs. Vattenfallet fungerar bäst för större team som har tydliga mål, krav och en 
 gedigen förståelse för omfattningen av det arbete som behöver göras före och efter den inledande kick-offen.
 
-![Non agile vs agile](NvAg.png)
+![Non agile vs agile](/images/NvAg.png)
 
 <hr>
 
@@ -162,11 +160,9 @@ global marknad precis som andra entreprenörer och har ett öga för att upptäc
 ***Issue distribution and handling in a group***  som det heter är att varje störning av en organisations IT-tjänster
 som påverkar allt från en enskild användare eller hela verksamheten. Kort sagt, en issue är allt som avbryter 
 affärskontinuiteten.
-<br>
 
 I en sådan situation behöver man en IT-issuehantering. Issuehantering är processen att hantera störningar i It-tjänster 
 och återställa tjänster inom överenskomna servicenivåavtal(Service level agreements(SLAs))
-<br>
 
 Issuehantering omfattning börjar med att en slutanvändare rapporterar ett problem och slutar med att en group 
 eller teammedlem löser problemet. 
@@ -192,7 +188,7 @@ De är bra tips att man ta upp i ärendehanterings granskning.
 -  Bearbeta 
 -  Rapportering 
 
-<br><hr>
+<hr>
 
 [källor]: 
 
