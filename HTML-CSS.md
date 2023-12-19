@@ -121,8 +121,33 @@ Förutom de praktiska överväganden som räknats upp ovan har det också funnit
 - CSS — Design
 - JS — Interaktivitet
 
+> ### CSS
 
 **CSS** står för "Cascading Style Sheets" (eller extern stilmallar lagras i .css) och används att beskriva hur HTML-element ska visas på skärmen, paper eller i andra media. Det viktigaste fördelen av CSS är att det sparar mycket arbete att styra layouten på fler webbsidor och app:ar. 
+
+### Hur CSS fungerar
+
+När man skriver CSS är det många gånger som regler skrivs som står i konflikt med varandra. Till exempel, när du formaterar rubriker, kan alla följande regler gälla för ett `h1`-element.
+
+- En regel på elementnivå som skapar konsekvent `h1`-rendering på alla sidor på webbplatsen.
+- En regel på klassnivå som definierar renderingen av `h1`-element som förekommer på specifika platser – till exempel titlarna på blogginlägg.
+- Ett element på id-nivå som definierar renderingen av ett `h1`-element som används på bara ett ställe på en eller flera webbsidor – till exempel webbplatsens namn.
+  
+Hur kan en utvecklare skriva regler som är tillräckligt generella för att täcka varje `h1` men ändå tillräckligt specifika för att definiera stilar som bara ska visas på specifika instanser av ett givet element?
+
+CSS-stilar följer två regler som du måste förstå för att skriva effektiv CSS. 
+
+De två reglerna som styr hur CSS beter sig är arv och specificitet.
+
+#### Cascading Arv
+
+Varför kallas CSS-stilar cascading? När flera regler skrivs som står i konflikt med varandra, kommer den sist skrivna regeln att implementeras.
+
+[Arv av stilar/ Inheritance of styles](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance) är ett annat exempel på överlappande beteende hos CSS-stilar.
+
+När du definierar en stil för ett överordnat element får de underordnade elementen samma stil. Till exempel, om vi tillämpar färgstil på en oordnad lista, kommer de underordnade listobjekten att visa samma stilar. 
+
+[Inte varje egenskap överförs från en överordnad till dess underordnade element](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance). Webbläsare betraktar vissa egenskaper som icke-ärvda egenskaper. Marginaler är ett exempel på en egenskap som inte överförs från ett överordnat till ett underordnat element.
 
 Ett vanligt css- strucuturad ser ut:
 ![Bild-3-CSS-Structure](/images/cssT2.png)
@@ -136,6 +161,61 @@ CSS har många Selectors och de mest grundläggande CSS-Selectors kan dela i fem
   
 En basic CSS-selectors exemplar:
 ![Bild-4-CSS-SELECTOR](/images/css-selectors.png)
+
+### Specificitet
+
+Den andra regeln som avgör vilka regler som tillämpas på varje HTML-element är [specificitetsregeln](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity).
+
+CSS-regler med mer specifika väljare kommer att åsidosätta CSS-regler med mindre specifika väljare oavsett vad som inträffar först. Som vi diskuterade är de tre vanligaste väljarna elementtaggar, klasser och ID.
+
+- Den minst specifika typen av väljare är elementnivåväljaren.
+- När en klass används som väljare kommer den att åsidosätta CSS-regler skrivna med elementtaggen som väljare.
+- När ett ID används som väljare kommer det att åsidosätta CSS-reglerna skrivna med element- eller klassväljare.
+  
+En annan faktor som påverkar specificiteten är platsen där CSS-stilarna skrivs. Stilar skrivna i linje med `Style` stilattributet åsidosätter stilar skrivna i en intern eller extern stilmall.
+
+Ett annat sätt att öka specificiteten hos en väljare är att använda en serie element, klasser och ID:n för att lokalisera det element du vill adressera. Till exempel, om du vill peka ut oordnade listobjekt på en lista med klassen "exempel-lista" som innehåller en `div` med id:t "exempel-div" kan du använda följande väljare för att skapa en väljare med hög specificitet .
+ 
+> div#example-div > ul.example-list > li {styles here}
+
+Även om detta är ett sätt att skapa en mycket specifik väljare, rekommenderas det att begränsa användningen av dessa typer av väljare eftersom de tar längre tid att bearbeta än enklare väljare.
+
+#### Vad kan CSS göra?
+En bättre fråga kan vara: "Vad kan inte CSS göra?"
+
+CSS kan användas för att förvandla ett HTML-dokument till en professionell, polerad design. Här är några av de saker du kan åstadkomma med CSS:
+
+- Skapa ett flexibelt rutnät för att designa helt responsiva webbplatser som återges vackert på alla enheter.
+- Style allt från typografi, till tabeller, till formulär och mer.
+- Placera element på en webbsida i förhållande till varandra med hjälp av egenskaper som `float`, `position`, `overflow`, `flex` och `box-sizing`.
+- Lägg till bakgrundsbilder till valfritt element.
+- Skapa former, interaktioner och animationer.
+
+Dessa koncept och tekniker går utöver den här inledande guiden, men följande resurser hjälper dig att ta itu med dessa mer avancerade ämnen.
+
+#### Boxmodellen
+
+Om du planerar att använda CSS för att bygga webbsideslayouter är ett av de första ämnena att bemästra boxmodellen. Boxmodellen är ett sätt att visualisera och förstå hur varje objekt på en webbsida är en kombination av innehåll, utfyllnad, kantlinje och marginal.
+
+Att förstå hur dessa fyra delar passar ihop är ett grundläggande koncept som måste bemästras innan man går vidare till andra CSS-layoutämnen.
+
+Två bra ställen att lära sig om boxmodellen inkluderar:
+
+- En [förklaring av boxmodellen/explanation of the box model](https://www.w3.org/TR/CSS21/box.html) från World Wide Web Consortium.
+- En [introduktion till CSS-boxmodellen/Introduction to the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) från Mozilla Developer Network.
+
+#### Skapa layouter/ Creating Layouts
+
+Det finns ett antal tekniker och strategier som används för att skapa layouter med CSS, och att förstå boxmodellen är en förutsättning för varje strategi.
+
+Mozilla Developer Network erbjuder en [bra introduktion till CSS-layouter/Introduction to CSS layouts](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout). Denna korta läsning täcker de grundläggande begreppen bakom CSS-layouter och introducerar snabbt egenskaper som textjustering`text-align`, flytande`float` och position`position`.
+
+En mycket mer omfattande och djupgående guide till CSS-layouter finns tillgänglig från W3C: CSS-layoutmodellen. Det här dokumentet är en resurs för professionella utvecklare, så om du är ny på CSS, ta dig tid att granska det. Det här är ingen snabb läsning. Men allt du behöver veta om att skapa CSS-layouter finns i det här dokumentet.
+
+Grid-layouter har varit den vanligaste strategin för att designa responsiva layouter i flera år. CSS-grid har skapats från grunden i flera år och det finns många olika grid-genererande webbplatser och utvecklingsramverk på marknaden. Men inom några år kommer stöd för rutnätslayouter att vara en del av CSS3-specifikationen. Du kan lära dig mycket om rutnät genom att läsa om ämnet på W3C:s webbplats. För en lättare och kortare introduktion till rutnätslayouter, ta en titt på den här artikeln från Mozilla.
+Inom några år förväntas CSS3 Flexible Box, eller flexbox, bli den dominerande modellen för att designa webblayouter. Flexbox-specifikationen är ännu inte helt komplett och slutförd, och stödet för flexbox är inte konsekvent mellan webbläsare. Men varje blivande CSS-utvecklare måste vara bekant med flexbox och beredd att implementera den inom en snar framtid. Mozilla Developer Network är ett av de bästa ställena att komma igång med flexbox.
+
+
 
 ## HC 1.2 Responsiv design
 
