@@ -221,8 +221,59 @@ Inom några år förväntas CSS3 Flexible Box, eller flexbox, bli den dominerand
 
 Responsiv design har ett unikt sätt att automatiskt anpassa designen på webbplatsen beroende på vilken enhet den visas på, och även om det tar lite arbete innan allt är konfigurerat och webbplatsen är helt anpassad, gör de enorma fördelarna det verkligen värt ansträngningen. Denna unika teknik gör att du sparar mycket tid och huvudvärk, och samtidigt kan du vara säker på att din sida kommer att se ut och fungera precis som du vill ha den, oavsett vilken enhet besökaren använder.
 
+En mängd olika skärmstorlekar finns på telefoner, "phablets", surfplattor, stationära datorer, spelkonsoler, TV-apparater och till och med bärbara enheter. Skärmstorlekar förändras hela tiden, så det är viktigt att din webbplats kan anpassas till vilken skärmstorlek som helst, idag eller i framtiden. Dessutom har enheter olika funktioner som vi interagerar med dem. Till exempel kommer några av dina besökare att använda en pekskärm. Modern responsiv design tar hänsyn till alla dessa saker för att optimera upplevelsen för alla.
 
-<img src="/images/responsiv.png" width="100%" height="50%">
+
+<img src="./images/responsiv.png" width="100%" height="50%">
+
+### Ställ in visningsporten
+
+Sidor som är optimerade för en mängd olika enheter måste innehålla en meta viewport-tagg i dokumentets huvud. En meta viewport-tagg ger webbläsaren instruktioner om hur man kontrollerar sidans dimensioner och skalning.
+
+För att försöka ge den bästa upplevelsen renderar mobila webbläsare sidan på en skrivbordsskärmsbredd (vanligtvis cirka 980px, även om detta varierar mellan olika enheter), och försöker sedan få innehållet att se bättre ut genom att öka teckenstorleken och skala innehållet så att det passar skärm. Detta innebär att teckensnittsstorlekar kan verka inkonsekventa för användare, som kan behöva dubbeltrycka eller nypa för att zooma för att se och interagera med innehållet.
+
+> `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+
+Genom att använda metavisningsportvärdet `width=device-width`  instrueras sidan att matcha skärmens bredd i enhetsoberoende pixlar. En enhet (eller densitets) oberoende pixel är en representation av en enda pixel, som på en skärm med hög densitet kan bestå av många fysiska pixlar. Detta gör att sidan kan flöda om innehåll för att matcha olika skärmstorlekar, oavsett om det renderas på en liten mobiltelefon eller en stor skrivbordsskärm.
+
+[Vissa webbläsare](https://css-tricks.com/probably-use-initial-scale1/) håller sidans bredd konstant när den roteras till liggande läge, och zooma istället för att flöda om för att fylla skärmen. Att lägga till värdet `initial-scale=1` instruerar webbläsare att upprätta ett 1:1-förhållande mellan CSS-pixlar och enhetsoberoende pixlar oavsett enhetsorientering, och gör att sidan kan dra fördel av hela liggande bredd.
+
+[Taggen Har inte en <meta name="viewport"> med bredd eller initial-skala](https://developer.chrome.com/docs/lighthouse/pwa/viewport/) Lighthouse-revision kan hjälpa dig att automatisera processen för att se till att dina HTML-dokument använder viewport-metataggen korrekt.
+
+#### Säkerställ en tillgänglig visningsport (Ensure an accessible viewport)
+
+Förutom att ställa in en initial skala kan du också ställa in följande attribut på visningsporten:
+
+- minimiskala (minimum-scale)
+- maximal skala (maximum-scale)
+- användarskalbar (user-scalable)
+  
+När de är inställda kan dessa inaktivera användarens möjlighet att zooma in visningsporten, vilket potentiellt kan orsaka tillgänglighetsproblem. Därför rekommenderar vi inte att du använder dessa attribut.
+
+#### Storlek på innehållet till visningsporten
+
+På både stationära och mobila enheter är användare vana att rulla webbplatser vertikalt men inte horisontellt; att tvinga användaren att rulla horisontellt eller att zooma ut för att se hela sidan resulterar i en dålig användarupplevelse.
+
+När du utvecklar en mobilwebbplats med en meta viewport-tagg är det lätt att av misstag skapa sidinnehåll som inte riktigt passar i den angivna viewporten. Till exempel kan en bild som visas med en bredd som är bredare än visningsporten göra att visningsporten rullas horisontellt. Du bör justera innehållet så att det passar inom visningsportens bredd, så att användaren inte behöver rulla horisontellt.
+
+Innehållet har inte rätt storlek för viewport. Lighthouse-revision kan hjälpa dig att automatisera processen för att upptäcka överflödande innehåll.
+
+#### Bilder (Images)
+
+En bild har fasta mått och om den är större än visningsporten kommer det att orsaka en rullningslist. Ett vanligt sätt att hantera detta problem är att ge alla bilder en `max-width` på `100%`. Detta kommer att få bilden att krympa för att passa det utrymme den har, om visningsportens storlek skulle vara mindre än bilden. Men eftersom `max-width`, snarare än `width` är `100 %`, kommer bilden inte att sträcka sig större än dess naturliga storlek. Det är i allmänhet säkert att lägga till följande i din stilmall så att du aldrig kommer att ha problem med bilder som orsakar en rullningslist.
+
+> img {  
+> 
+>       max-width: 100%;
+> 
+>       display: block;
+> 
+> }
+
+#### Lägg till bildens mått till img-elementet
+
+När du använder `max-width: 100%` åsidosätter du bildens naturliga dimensioner, men du bör fortfarande använda width- och height-attributen på din `<img>` - tagg. Detta beror på att moderna webbläsare kommer att använda denna information för att reservera utrymme för bilden innan den laddas in, detta kommer att hjälpa till att undvika layoutförskjutningar när innehållet läses in.
 
 Fördelar med responsiv-design:
 
