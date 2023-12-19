@@ -430,7 +430,7 @@ Sass tillhandahåller kontrolldirektiv som `@if` , `@if else` , `@for` som hjäl
 
 #### Fördelar med att använda en pre-processor
 
-När du väl har behärskat CSS finns det många fördelar med att använda en förprocessor. En av de största är nog att inte behöva upprepa sig. Med andra ord, det gör din (CSS Dry](https://vanseodesign.com/css/dry-principles/).
+När du väl har behärskat CSS finns det många fördelar med att använda en förprocessor. En av de största är nog att inte behöva upprepa sig. Med andra ord, det gör din [CSS Dry](https://vanseodesign.com/css/dry-principles/).
 
 Här är några andra fördelar.
 
