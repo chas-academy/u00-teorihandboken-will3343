@@ -461,6 +461,43 @@ En vanlig och mest känd CSS och HTML validation hemsida.
 
 Naturligtvis, det är inte bara de här sidorna förutom det finns också många andra hemsidor som validerar HTML och CSS. 
 
+#### tips för optimera en hemsida 
+
+1. Hastighetsoptimeringstest
+Sidladdningshastigheten är en av de största anledningarna till att användare har en dålig upplevelse på din webbplats, vilket leder till en hög avvisningsfrekvens och ett negativt intryck av ditt varumärke. För många högupplösta bilder, överdrivna videor, maxad webbplatscache och oren kod kan vara några av anledningarna till att din webbplats är långsam.
+Hur man genomför hastighetsoptimeringstester
+Verktyg som [GTMetrix](https://gtmetrix.com/) är ett utmärkt sätt att testa din webbplatss laddningshastighet i olika länder, webbläsare och nätverksanslutningar. GTMetrix kommer att förse dig med historiken för din webbplats laddningshastighet, videor och bildrapporter från din webbplatsanalys och möjliga fel som orsakar förseningar, plus föreslagna korrigeringar.
+
+Testa din sidladdningshastighet flera gånger från olika platser och olika anslutningsnätverk. Fokusera på de regioner där du har mest trafik för att identifiera och åtgärda eventuella backendproblem för snabbare laddning och prestanda.
+
+2. Mobilt svarstest
+Föreställ dig en användare som söker efter en webbplats för grammatikverktyg för att hjälpa dem att redigera e-postmeddelanden och presentationer på sin telefon. De hittar en webbplats som erbjuder allt de behöver – men den mobila upplevelsen är problematisk, och de befinner sig i att zooma ut hela tiden, utan en fullständig visning av menyalternativ.
+
+3. Testning av trasiga länkar
+Har du någonsin klickat på en knapp bara för att hitta en 404-felsida? Du nickar förmodligen ja.
+
+Trasiga länkar gör mer än att bara skada ditt varumärkes rykte. De förstör användarupplevelsen och påverkar din SEO-poäng och omvandlingar. Det sista du vill är att investera tid och resurser i att skapa innehåll och optimera din webbplats bara för att upptäcka att du har dirigerat trafik till 404 sidor.
+
+4. Användbarhetstestning
+Användbarhetstester hjälper dig att testa funktionerna på din webbplats genom att observera dina användare för att förstå varför de beter sig på ett visst sätt på din produktsida.
+
+Voice-of-the-customer (VoC) insikter hjälper dig att fatta webbplatsrelaterade beslut baserat på användarnas behov och validera dina webboptimeringsinsatser.
+
+5. A/B-testning
+Att förbättra din webbplats prestanda är inte en linjär process. Du kommer ofta att få flera idéer och olika hypoteser för det bästa sättet att optimera din webbplats.
+
+6. Multivariat testning
+Till skillnad från A/B-tester, där du bara kan göra en ändring i två olika tester, låter multivariattestning dig ändra flera variabler för att hjälpa dig förstå vilka kombinationer som ger dig de bästa resultaten.
+
+Hur man utför multivariata tester
+Du kan bara utföra multivariattestning efter att ha nått en viss trafikvolym eftersom du behöver mycket trafik för att testa varje variabel och få meningsfulla insikter. Eftersom fler än två variabler kommer att testas, delas trafiken av antalet testade variabler och mindre trafik allokeras till varje variabel.
+
+Se till att du är tydlig med vilka variabler du vill testa och vilka insikter du vill få.
+
+7. SEO-testning
+Sökmotoroptimering är en avgörande aspekt för att förbättra din webbplats prestanda. 
+
+
 <hr>
 
 Källor:
