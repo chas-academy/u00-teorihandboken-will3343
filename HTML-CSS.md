@@ -301,6 +301,47 @@ WCAG(Web Content Accessibility Guidelines) tas vissa standard fram W3C Web Acces
 - Begriplig - hjälp användare att undvika och rätta till misstag etc.
 - Robust - maximera kompabilitet med nuvarande och framtida användarverktyg.
 
+#### Riktlinjer för funktionsduglig webbtillgänglighet
+
+**Säkerställ fullständig funktionalitet via tangentbordet**: Vissa användare som navigerar på din webbplats kommer inte att använda en mus eller en pekplatta. Därför bör all funktionalitet på din webbplats vara tillgänglig med enbart tangentbordet. Till exempel ska tabbtangenten låta användare hoppa mellan valbara element på sidan, och enter/retur-tangenten ska "klicka" på elementet i fokus.
+
+**Ge gott om tid att engagera sig med din webbplats**: Tillåt användare att läsa, titta på och använda de olika innehållstyperna på din webbplats inom en rimlig tidsram. Om någon åtgärd på din webbplats innehåller en tidsgräns bör användarna tillåtas att förlänga eller avbryta den. Denna riktlinje gäller även för tillgängliga rullgardinsmenyer: Om en användare kopplar bort menyn från musen är det en bra praxis att ställa in en tidsfördröjning innan menyn försvinner.
+
+**Undvik blinkande/blinkande innehåll**: Enligt W3C kan innehåll som blinkar eller blinkar mer än tre gånger på en sekund utlösa anfall. Det är bäst att undvika detta. Om du av någon anledning inte kan det är det absolut nödvändigt att du ger en varning.
+
+**Tillhandahåll navigering för att hjälpa användare att veta var de är och vart de kan gå**: En tydlig sidtitel, meningsfulla länkar, en tangentbordsfokusindikator och korrekta rubriker signalerar alla till användarna var de är på din webbplats och vilka element som är klickbara länkar.
+
+#### Förståliga riktlinjer för webbtillgänglighet
+
+**Gör textinnehåll läsbart**: Tänk på hela omfattningen av din potentiella publik när du utarbetar ditt innehåll. Din skrift bör vara begriplig för många läsare, inklusive de som lär sig din webbplatss modersmål. Undvik att använda högteknisk jargong och regional slang.
+
+**Strukturera dina sidor logiskt**: När du planerar din webbplats struktur och navigering, placera dina navigeringslänkar och sidor på ett sätt som känns intuitivt för besökarna. Detta inkluderar att placera navigering ovanför mitten, oftast i sidans sidhuvud (och sidfot).
+
+**Skriv användbara felmeddelanden**: Ingen gillar att få ett felmeddelande, så ge en tydlig beskrivning av felet och instruktioner för att hjälpa besökarna att rätta till sina misstag.
+
+#### Robusta riktlinjer för webbtillgänglighet
+**Skriv HTML som kan tolkas**: Hjälpmedel använder ofta en webbsidas HTML-fil för att översätta dess innehåll till ett annat format. Av denna anledning bör dina sidors HTML-kod vara välskriven. För tillgänglighet innebär detta att man använder start- och sluttaggar när det behövs och att man undviker dubbletter av ID:n över element och dubbletter av attribut inom samma HTML-tagg.
+
+Nu när du förstår vad webbtillgänglighet är, varför det är viktigt och riktlinjerna, låt oss titta på några verktyg som du kan stödja dig på för att få hjälp när du gör din webbplats mer tillgänglig.
+
+#### Varför är webbtillgänglighet viktigt?
+
+Som nämnts gör webbtillgänglighet din webbplats – och dess innehåll – mer användarvänlig och lätt att förstå för alla besökare. Detta inkluderar personer med funktionshinder och begränsningar som:
+
+- Blindhet
+- Lågsyn
+- Inlärningssvårigheter
+- Kognitiva funktionsnedsättningar
+- Dövhet
+- Hörselnedsättning
+- Talhandikapp
+- Fysiska nedsättningar
+
+Webbtillgänglighet är inte valfritt; det är ett måste, varför webbtillgänglighet är viktigt. Genom att prioritera din webbplatss tillgänglighetsnivå förbättrar du användarupplevelsen för alla dina besökare – inklusive de med funktionshinder eller begränsningar som landar på din webbplats.
+
+
+
+
 ## HC 1.4 Aktuella webbstandarder (gällande och kommande standarder)
 
 Webbstandarder är rekommendationer från World Wide Web Consortium (W3C) och andra standardiseringsorgan, om hur webbaserat innehåll ska skapas och tolkas. Webbplatsstandarder har funnits sedan webbutvecklings gryning, och det är först på senare år som rekommendationerna har fått ett brett stöd över stora sajter.
