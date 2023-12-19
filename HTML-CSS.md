@@ -1,5 +1,5 @@
 # Teorihandboken - HTML & CSS (HC)
-Inlämningsdatum: 20231119
+Inlämningsdatum: 20231119   (Komplettering)
 
 Studerande: 
 
@@ -36,13 +36,36 @@ kontroll av att något verkligenhar de egenskaper som det uppges eller förvänt
 ### Webb 
 är där innehållet på hemsidorna till stor del skapas av användarna och är tillgängligt för alla.
 
-## HC 1.1 HTML & CSS
+>## HC 1.1 HTML <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" background-color="white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>   & CSS    <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
 
 **HTML** står för "Hyper Text Markup Language" eller (extern stilmallar lagras i (.html)) och är det språk som alla webbsidor är byggda av. Det berättar hur en hemsida ska se ut och är alltså ett så kallat sidbeskrivningsspråk. Med hjälp av så kallade HTML-taggar kan du till exempel placera in bilder eller tabeller.
 
+HTML5 är den senaste specifikationen för HTML-språket och representerade ett stort brott med tidigare uppmärkningsmetoder. Syftet med de djupgående förändringarna av språket var att standardisera de många nya sätt som utvecklare använde det på, samt att uppmuntra en enda uppsättning bästa praxis när det gäller webbutveckling.
+
+De flesta av de individuella förändringarna är ett resultat av större mål i utformningen av språket. Dessa mål inkluderar främst:
+
+- Uppmuntrande semantisk (meningsfull) uppmärkning
+- Separera design från innehåll
+- Främja tillgänglighet och designlyhördhet
+- Minska överlappningen mellan HTML, CSS och JavaScript
+- Stödja rika mediaupplevelser samtidigt som du eliminerar behovet av plugins som Flash eller Java
+  
+Att få grepp om HTML5 handlar inte bara om att lära sig vilka CSS-funktioner som ersätter gamla HTML-funktioner. Om du vill få en intuitiv känsla av HTML5 är det bäst att förstå hur dessa mål påverkade utvecklingen av språket.
+
+#### Uppmuntrande semantisk uppmärkning (Encouraging Semantic Markup)
+
+Semantisk markering betyder markering som har betydelse, snarare än markering som helt enkelt ser ut på ett visst sätt. Till exempel, `<h1>` - taggen antyder att innehållet i elementet är titeln eller rubriken för hela dokumentet. Den semantiska betydelsen skulle gå förlorad om vi bara gjorde texten fet och stor utan att använda lämplig tagg.
+
+HTML har alltid haft lite semantisk markering tillgänglig för sig: `heading tags`, the `link rel attribute` och `document metadata`. Men det räckte inte.
+
+I tidigare versioner av språket indikerades vanliga strukturella element som sidrubriker, navigeringsmenyer och huvudinnehållssektioner med samma HTML-element, taggen `<div>.` 
+I HTML finns det en mängd nya semantiska element avsedda att indikera den grundläggande strukturen på en sida:
+
+
+
 ![Bild-1-HTML](/images/htmlT2.png)
 
-HTML har taggar,elements, attributes och där kan man skapa hemsida och redigera hemsida via olika sorts av TextEditor, Notepad, Notepad++ och andra framwork appar på windows, Mac och Linux.
+HTML  har taggar,elements, attributes och där kan man skapa hemsida och redigera hemsida via olika sorts av TextEditor, Notepad, Notepad++ och andra framwork appar på windows, Mac och Linux.
 
 Ett vanligt structurade HTML hemsida ser ut som: 
 
@@ -56,6 +79,48 @@ Alla HTML- element har attribut:
    - Style - attributet används för att lägga till stilar till ett element, som färg, teckensnitt, storlek med mera.
    - Lang - attributet för `<html>` - taggen deklarerar webbsidans språk. 
    - title - attributet definierar lite extra information om ett element. 
+
+Nya element på textnivå (inline) har också introducerats, såsom `<adress>` och `<tid>`. Dessa hjälper sökmotorer och andra tjänster att enkelt hitta information på en sida, för visning i andra sammanhang. Samtidigt har befintliga inline-element som ger olika effekter som fetstil, kursiv och understruken förfinats eller omdefinierats för att antyda specifik semantisk betydelse.
+
+#### Separera design från innehåll
+Tillsammans med starkt uppmuntrande semantisk (meningsfull) uppmärkning, avråder HTML5-specifikationen starkt icke-meningsfull uppmärkning – uppmärkning som endast är avsedd att tala om för webbläsaren hur man visar saker. Detta inkluderar saker som:
+
+- deklarerar teckensnitt och textfärger
+- ställa in textjustering eller justering
+- placera bårder på bord
+- definiera hur text lindas runt bilder
+
+De flesta HTML-funktioner som möjliggjorde den här typen av saker har blivit helt utfasade. De få som fortfarande stöds officiellt kommer med varningar om att de vanligtvis inte rekommenderas.
+
+Det finns främst två skäl att föredra denna separation:
+
+- Det är lättare att underhålla och designa om en webbplats om stildeklarationerna är begränsade till CSS
+- Användare ser webbinnehåll i många olika sammanhang – stationära datorer, bärbara datorer, surfplattor, mobiltelefoner, RSS-läsare och många andra. Stilar och designbeslut som är vettiga i en miljö är inte alltid vettiga i en annan. Så det är mycket bättre att ge semantisk information och låta innehållet anpassas till sammanhanget.
+  
+Denna sista punkt är nära knuten till...
+
+#### Främja tillgänglighet och designlyhördhet (Promoting Accessibility and Design Responsiveness)
+
+Alla interagerar inte med webben på samma sätt som du gör.
+
+"Konventionella" enheter – stationära datorer, bärbara datorer, surfplattor och telefoner – presenterar ett brett utbud av skärmstorlekar, bildformat, bildskärmsupplösningar och användarupplevelser. Enbart denna variation borde vara tillräckligt för att uppmuntra semantiska och responsiva designpraxis. Men inte alla använder en "konventionell" webbläsare.
+
+Blinda och synskadade surfar också på nätet och de använder en mängd olika hjälpmedel för att göra det. Skärmläsare som översätter en webbplatss innehåll till tal, specialiserade webbläsare som tar bort stil och presenterar mycket förstorad eller högkontrasttext, punkttolkare och tangentbordsbaserad navigering tillåter alla med icke-standardiserad syn att interagera med webbplatser.
+
+Och alla dessa tekniker hindras av uppmärkning som försöker "hårdkoda" design och styling i innehållet på en sida.
+
+#### Minska överlappningen mellan HTML, CSS och JavaScript (Reducing the Overlap Between HTML, CSS, and Javascript)
+
+Tre språk definierar front-end webbutveckling - `HTML`, `CSS` och `JavaScript`.
+
+Ingen satte sig i början av internet och kom på vilka typer av saker som hör till respektive språk. De utvecklades var och en parallellt med varandra, ofta överlappande i funktionalitet och omfattning.
+
+Förutom de praktiska överväganden som räknats upp ovan har det också funnits ett fokus på att definiera karaktären och syftet med dessa språk, och begränsa dem (eller utöka dem) så att de gör vad som ligger i deras natur att göra:
+
+- HTML — Innehåll
+- CSS — Design
+- JS — Interaktivitet
+
 
 **CSS** står för "Cascading Style Sheets" (eller extern stilmallar lagras i .css) och används att beskriva hur HTML-element ska visas på skärmen, paper eller i andra media. Det viktigaste fördelen av CSS är att det sparar mycket arbete att styra layouten på fler webbsidor och app:ar. 
 
