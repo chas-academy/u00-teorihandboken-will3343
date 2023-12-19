@@ -339,9 +339,6 @@ Som nämnts gör webbtillgänglighet din webbplats – och dess innehåll – me
 
 Webbtillgänglighet är inte valfritt; det är ett måste, varför webbtillgänglighet är viktigt. Genom att prioritera din webbplatss tillgänglighetsnivå förbättrar du användarupplevelsen för alla dina besökare – inklusive de med funktionshinder eller begränsningar som landar på din webbplats.
 
-
-
-
 ## HC 1.4 Aktuella webbstandarder (gällande och kommande standarder)
 
 Webbstandarder är rekommendationer från World Wide Web Consortium (W3C) och andra standardiseringsorgan, om hur webbaserat innehåll ska skapas och tolkas. Webbplatsstandarder har funnits sedan webbutvecklings gryning, och det är först på senare år som rekommendationerna har fått ett brett stöd över stora sajter.
@@ -355,6 +352,48 @@ Det finns att en hemsida följer för webbstandarder:
 - är skapat för att fungera i alla webbläsare  
 
 Webbstandarder syftar till att säkerställa hållbarheten hos information som publiceras på webben, vilket gör den tillgänglig för så många webbanvändare som möjligt. Webbplatser som utformats för att följa webbläsarstandarder kommer att fortsätta att fungera korrekt även på nya webbläsare.
+
+#### Vad är webbstandarder?
+
+Webbstandarder är de specifikationer som definierar WWW, inklusive bästa praxis för webbutveckling och design.
+
+Innan W3C och medföljande organ satte dessa standarder fanns det inga regler för innehållsskapande eller webbplatsstruktur. Nu är webbplatser byggda för att uppfylla samma standarder för att säkerställa att de är kompatibla över webbläsare, censurfria och tillgängliga för så många människor som möjligt.
+
+#### Varför skapades webbstandarder?
+
+Webbstandarder skapades för att formalisera alla sidor på webben och skapa etiska standarder för skapande och användning. De tre första webbstandarderna kanske låter bekanta:
+
+- HyperText Markup Language (HTML)
+- Uniform Resource Identifier (URI, aka URL)
+- HyperText Transfer Protocol (HTTP)
+  
+Från starten gick W3C med på att all webbrelaterade teknik skulle vara gratis att använda. När väl styrande organisationer satte standarder och Tim Berners-Lee utarbetade hur man länkar mellan servrar, dök webbläsare upp i dussintals, servrar i tusental och webbsidor i miljontals.
+
+Dagens webbstandarder är mer varierande än de tre första, men de är alla baserade på fem tidiga ideal:
+
+- **Decentralisering**: Vem som helst kan lägga upp vad som helst online utan uttryckligt tillstånd från ett styrande organ.
+- **Icke-diskriminering (nätneutralitet)**: Samma nivå av kommunikation bör finnas över plattformar, oavsett hur bra eller dålig internettjänsten är.
+- **Bottom-up-design**: Kod bör utvecklas offentligt, uppmuntra samarbete och experiment.
+- **Universalitet**: Alla datorer bör tala samma språk, oavsett var de finns eller vem som kontrollerar dem.
+- **Konsensus**: Alla som är involverade i de tekniska aspekterna av webben måste gå med på att använda webbstandarder.
+
+#### Varför vi behöver webbstandarder
+
+Webbstandarder gynnar både de människor som använder webben och de som bygger för det. Att följa webbstandarder och följa WCAG-riktlinjer förbättrar sökmotorresultat och tillgänglighet samtidigt som det stödjer utvecklande teknik och designflexibilitet.
+
+#### Synlighet för webbsökning
+
+Webbstandarder säkerställer att webbplatser lätt indexeras och nås av sökmotorer som Google eller Bing.
+
+Google, till exempel, använder sökrobotar [uses site crawlers](https://developers.google.com/search/docs/fundamentals/how-search-works) som kammar ditt innehåll för att ta reda på vad det handlar om, var numrerade listor finns, vilka ord som finns på varje sida, etc. Utifrån denna information avgör det vilka sökord ditt innehåll är relevant för och var det ska placeras din webbplats i dess sökmotorresultatsidor (SERP). Eftersom 93 % av all webbplatstrafik kommer via sökmotorer, är det avgörande att din webbplats är korrekt indexerad och placerad högt upp i resultat.
+
+#### Bästa metoder för standardiserad webbdesign
+
+Här är några tips om följande webbstandarder under hela din webbdesignprocess:
+
+- **Använd en checklista för tillgänglighet**: Det bästa sättet att ta till sig webbstandarder och skapa innehåll för alla är att godkänna riktlinjerna för tillgänglighet. Använd en checklista för tillgänglighet för att säkerställa att din webbdesign tar hänsyn till personer med unika behov. Detta inkluderar att erbjuda textöversättning eller designa element för vertikal visning eller höger-till-vänster-layouter för att göra webbplatser synliga för så många människor som möjligt.
+- **Skapa mobilvänlig design**: Genom att skapa responsiv design utökar du din målgrupp, eftersom 49,8 % av människor använder webben på sin mobiltelefon mer än sin dator. Granska bästa praxis för responsiv webbdesign för att säkerställa att din webbplats automatiskt ändrar utseende och element beroende på enhet och skärmstorlek. Tänk också på din laddningstid – de flesta användare studsar om en sida tar mer än fyra sekunder att ladda. Du kan komprimera och optimera dina bilder eller välja en högpresterande webbplatsvärd för att snabba upp din webbplatss laddningstid.
+- **Dela din kod**: Innehåll med öppen källkod bygger på en av de ursprungliga hyresgästerna för webbstandarder: design från nerifrån och upp. Om möjligt, dela din webbplatss kod i forum eller på utvecklarplattformar med öppen källkod som Github för att främja tillgänglighet och samarbete. En annan användare kanske har ett mer strömlinjeformat sätt att skapa ett diagram, till exempel, eller så kan du hjälpa en webbdesigner att ta sig igenom ett tufft designproblem.
 
 ## HC 1.5 CSS Pre-processorer (ex SASS/LESS)
 
