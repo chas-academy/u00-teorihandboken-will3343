@@ -397,7 +397,13 @@ Här är några tips om följande webbstandarder under hela din webbdesignproces
 
 ## HC 1.5 CSS Pre-processorer (ex SASS/LESS)
 
-Det finns tre primära CSS-Preprocessorer på marknaden idag, `Sass` , `Less`  och `Stylus`. I det här inlägget kommer vi att jämför de två preprocessorerna som verkar vara de mest använda bland utvecklare, Sass vs Less. Genom att byta en pre-processorn kan hjälpa till att effektivisera din utvecklingsprocess.
+CSS är primitivt och ofullständigt. Att bygga en funktion, återanvända en definition eller arv är svåra att uppnå. För större projekt, eller komplexa system, är underhåll ett mycket stort problem. Å andra sidan utvecklas webben, nya specifikationer introduceras till såväl HTML som CSS. Webbläsare tillämpar dessa specifikationer medan de är i förslagstillstånd med sina speciella leverantörsprefix. I vissa fall (som i bakgrundsgradient) blir kodning med leverantörsspecifika egenskaper en börda. Du måste lägga till alla olika leverantörsversioner för ett enda resultat.
+
+För att skriva bättre CSS fanns det olika tillvägagångssätt som att separera definitioner i mindre filer och importera dem till en huvudfil. Detta tillvägagångssätt hjälpte till att hantera komponenter men löste inte kodupprepningar och underhållsproblem. Ett annat tillvägagångssätt var tidiga implementeringar av objektorienterad CSS. I det här fallet tillämpas två eller flera klassdefinitioner på ett element. Varje klass lägger till en typ av stil till elementet. Att ha flera klasser ökade återanvändbarheten men minskade underhållsbarheten.
+
+Pre-processorer, med sina avancerade funktioner, hjälpte till att skriva återanvändbara, underhållbara och utbyggbara koder i CSS. Genom att använda en pre-processor kan du enkelt öka din produktivitet och minska mängden kod du skriver i ett projekt.
+
+Det finns tre primära CSS-Preprocessorer på marknaden idag, [`Sass`](https://sass-lang.com/) , [`Less`](https://lesscss.org/)  och [`Stylus`](https://stylus-lang.com/). I det här inlägget kommer vi att jämför de två preprocessorerna som verkar vara de mest använda bland utvecklare, Sass vs Less. Genom att byta en pre-processorn kan hjälpa till att effektivisera din utvecklingsprocess.
 En CSS pre-processorn är i grunden ett skriptspråk som utökar CSS och sedan kompilerar det till vanlig CSS. 
 
 En vanlig Sass kod:
@@ -406,7 +412,33 @@ En vanlig Sass kod:
 
 #### Sass Vs Less
 
-Sass och Less är båda mycket kraftfulla CSS-tillägg. Du kan tänka på dem som mer av ett programmeringsspråk som är utformat för att göra CSS mer underhållbar, teman och utbyggbar. Både Sass och Less är bakåtkompatibla så att du enkelt kan konvertera dina befintliga CSS-filer bara genom att byta namn på `.css` filtillägget till `.less` eller `.scss` respektive. Less är JavaScript baserat och Sass är Ruby baserat.  
+Sass och Less är båda mycket kraftfulla CSS-tillägg. Du kan tänka på dem som mer av ett programmeringsspråk som är utformat för att göra CSS mer underhållbar, teman och utbyggbar. Både Sass och Less är bakåtkompatibla så att du enkelt kan konvertera dina befintliga CSS-filer bara genom att byta namn på `.css` filtillägget till `.less` eller `.scss` respektive. Less är JavaScript baserat och Sass är Ruby baserat. 
+
+#### Sass skrivs i javascript och LESS i Ruby
+
+Båda pre-processorerna är skrivna på olika språk, och det är därför de kräver olika förutsättningar. För att börja med Sass måste du installera Ruby på ditt system, eller så kan du gå med offlinekompilatorn för att konvertera Sass-filer till vanliga CSS-filer.
+
+För att börja med Less måste du gå med en Less-kompilator, och för det måste du installera Node och NPM (nodpakethanterare, pakethanterare för javascript-relaterade projekt) på ditt system, eller så kan du gå med en onlinekompilator på webb.
+
+#### Sass har fler funktioner än LESS
+
+Sass erbjuder extra funktioner än mindre, vilket kan vara mycket fördelaktigt när vi bygger vårt projekt och kan spara oss lite extra tid och ansträngning.
+
+#### Sass tillhandahåller kontrolldirektiv medan LESS inte gör det
+
+Sass tillhandahåller kontrolldirektiv som `@if` , `@if else` , `@for` som hjälper dig att skriva mer avancerad logik och sparar tid och extra ansträngning, medan LESS inte tillhandahåller något sådant kontrolldirektiv som Sass.
+
+#### Fördelar med att använda en pre-processor
+
+När du väl har behärskat CSS finns det många fördelar med att använda en förprocessor. En av de största är nog att inte behöva upprepa sig. Med andra ord, det gör din (CSS Dry](https://vanseodesign.com/css/dry-principles/).
+
+Här är några andra fördelar.
+
+- Renare kod med återanvändbara bitar och variabler
+- Sparar dig tid
+- Lättare att underhålla kod med utdrag och bibliotek
+- Beräkningar och logik
+- Mer organiserad och lätt att installera
 
 ## HC 1.6 Optimering och validering av HTML & CSS
 
