@@ -1,5 +1,13 @@
 # Teorihandboken - Programmeringsmetodik (PG)
-Studerande: Förnamn Efternamn
+
+Inlämningsdatum: 20240407
+
+Studerande: 
+
+### William Berhane 
+
+### FWD-23 - Chas Academy
+
 
 ## PG 1.1 Versionshantering (Git)
 Beskriv rubriken här
