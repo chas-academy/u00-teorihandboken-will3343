@@ -697,6 +697,7 @@ Slutligen är det bra att veta att kommandohistoriken lagras i den dolda filen s
 
 ### Länkar till Källor:
 
+- #### Lektions-material 
 - [Versionshantering](https://git-scm.com/book/sv/v2/Kom-ig%C3%A5ng-Om-versionshantering)
 - [DevOps](https://www.atlassian.com/devops)
 - [Git](https://git-scm.com/)
