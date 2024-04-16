@@ -1,5 +1,45 @@
 # Teorihandboken - Backendutveckling (BE)
-Studerande: Förnamn Efternamn
+
+Inlämningsdatum: 2024
+
+Studerande: 
+
+### William Berhane 
+
+### FWD-23 - Chas Academy
+
+<br>
+
+## Begrepp ord:
+
+### cURL 
+
+### Databas
+
+### ER-modellering
+
+### Heirarkiska 
+
+### HTTP
+
+### MVC
+
+### OOP
+
+### PHP
+
+### Protokollet
+
+### REST 
+
+### SQL
+
+### Webbserver 
+
+### Wordpress
+
+### XML 
+
 
 ## BE 1.1 PHP
 Beskriv rubriken här
