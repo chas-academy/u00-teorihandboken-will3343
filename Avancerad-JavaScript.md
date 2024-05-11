@@ -1411,9 +1411,9 @@ Källor:
 - [Fusebox](https://fuse-box.org/)
 - [Parcel](https://parceljs.org/)
 - [Browserify](https://browserify.org/)
-- [TypeScript] (https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Express.js]( https://expressjs.com/)
-- []()
+
 
 
       
