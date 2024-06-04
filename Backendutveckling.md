@@ -1,6 +1,6 @@
 # Teorihandboken - Backendutveckling (BE)
 
-Inlämningsdatum: 2024
+Inlämningsdatum: 20240609
 
 Studerande: 
 
@@ -1320,4 +1320,12 @@ Många webbservrar, även den grundläggande, stöder också skripttekniken på 
 
 ### Källor:
 
-(OOP i PHP) https://medium.com/@imadevguyanand/php-what-is-oop-413b566f9a94 
+- Lektionsmaterial
+
+- [OOP i PHP](https://vitejs.dev/)
+
+- [Databas](https://www.oracle.com/database/what-is-database/)
+
+- [PHP](https://www.one.com/sv/webbhotell-hosting/vad-ar-php)
+
+- [ER-Modelling](https://opentextbc.ca/dbdesign01/chapter/chapter-8-entity-relationship-model/)
